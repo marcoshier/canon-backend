@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "devops-rndr",
+        "password": "JDJiJDEyJG5vUS9MYmdJZUNyM1lNWDFueFdSaU9JOWI0d1FCdzJJdWhOZHpjWVZ3NkNCNDNkajd0Q1Ay"
+      }
+    ]
+  }
+}

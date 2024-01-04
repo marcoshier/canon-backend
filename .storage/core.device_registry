@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "93bca23e9b311ab2b506bfd5ea5067ea"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "44aae4b553bc7a8902183c8cd83a6e99",
+        "identifiers": [
+          [
+            "sun",
+            "93bca23e9b311ab2b506bfd5ea5067ea"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "b2:ad:82:6c:19:18"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "3659ec8bd0c3ea9e03fe6bb55b997f2b",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "1c02e38893ee355e09b75bbb9ab56a3f",
+        "orphaned_timestamp": 1704365768.900071
+      }
+    ]
+  }
+}
