@@ -19,7 +19,7 @@ import org.openrndr.extra.shapes.grid
 fun main() = application {
 
     program {
-        val grid = drawer.bounds.grid(8, 1).flatten()
+        val grid = drawer.bounds.grid(3, 1).flatten()
         val sensorStates = grid.indices.associateWith { false }.toMutableMap()
 
 
@@ -31,7 +31,7 @@ fun main() = application {
                 val msg = socket.incoming.receive()
                 val bytes = msg.packet.readBytes().decodeToString()
                 val state = Json.decodeFromString<SensorState>(bytes)
-                sensorStates[state.index] = state.state
+                sensorStates[state.index - 1] = state.state
                 println("$state - msg received")
             }
         }

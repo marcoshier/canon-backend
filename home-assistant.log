@@ -1,1 +1,20 @@
-2024-01-04 10:55:12.292 ERROR (MainThread) [homeassistant.components.homeassistant_alerts] Timeout fetching homeassistant_alerts data
+2024-01-10 14:33:56.483 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). Requested URL: '/auth/login_flow/9cf0b1a54a78749c1c5bfd6bc35879c5'. (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0)
+2024-01-10 14:34:46.578 ERROR (MainThread) [aiohomekit.utils] Failure running background task: Task-752
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/utils.py", line 40, in _handle_task_result
+    task.result()
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/pairing.py", line 423, in _process_config_changed
+    await self.list_accessories_and_characteristics()
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/pairing.py", line 181, in list_accessories_and_characteristics
+    response = await self.connection.get_json("/accessories")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/connection.py", line 366, in get_json
+    response = await self.get(target)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/connection.py", line 360, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/connection.py", line 520, in request
+    raise AccessoryDisconnectedError("Tried to send while not connected")
+aiohomekit.exceptions.AccessoryDisconnectedError: Tried to send while not connected
+2024-01-10 14:35:58.474 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). Requested URL: '/api/websocket'. (Ktor client)

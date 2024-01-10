@@ -5,62 +5,106 @@
   "data": {
     "entries": [
       {
-        "entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
+        "entry_id": "9135d96cb18a97bf912046244b6ee8fe",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ipp",
+        "title": "Samsung M262x 282x Series (SEC84251925626C)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "16a65700-007c-1000-bb49-84251925626c",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "29e8a411a49b2178a0ea9e652694688a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "apple_tv",
+        "title": "RNDR_TV (Apple TV 4)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "0623907A-E205-492B-A5AF-C9D0881F9077",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "69401f3060883c09ec6ec49f90962c23",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "hci0 (DC:1B:A1:F0:D1:91)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "DC:1B:A1:F0:D1:91",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "aabe7aebe86aacf354f767c37496ffb6",
         "version": 1,
         "minor_version": 1,
         "domain": "sun",
         "title": "Sun",
         "data": {},
         "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
+        "pref_disable_new_entities": true,
+        "pref_disable_polling": true,
         "source": "import",
         "unique_id": null,
-        "disabled_by": null
+        "disabled_by": "user"
       },
       {
-        "entry_id": "1376055c14607d8663fd8e9584368a54",
+        "entry_id": "a8531c4247eb4d60a44dd0c51dcc436c",
         "version": 1,
         "minor_version": 1,
-        "domain": "shopping_list",
-        "title": "Shopping list",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": "shopping_list",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "7ffd8a507aba15c58d21514fb1c7ad17",
-        "version": 1,
-        "minor_version": 1,
-        "domain": "google_translate",
-        "title": "Google Translate text-to-speech",
+        "domain": "upnp",
+        "title": "Archer_MR200",
         "data": {
-          "language": "en",
-          "tld": "com"
+          "udn": "uuid:9f0865b3-f5da-4ad5-85b7-7404637fdf37",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:9f0865b3-f5da-4ad5-85b7-7404637fdf37",
+          "mac_address": "40:ed:00:0d:3e:11",
+          "host": "192.168.0.1",
+          "location": "http://192.168.0.1:1900/gatedesc.xml"
         },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": null,
+        "source": "ignore",
+        "unique_id": "uuid:9f0865b3-f5da-4ad5-85b7-7404637fdf37::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
         "disabled_by": null
       },
       {
-        "entry_id": "8c701c0468ab8b8ca0d3b99ea873c2f2",
+        "entry_id": "775cc541c2d6f4cae643f915b3883513",
         "version": 1,
         "minor_version": 1,
-        "domain": "radio_browser",
-        "title": "Radio Browser",
-        "data": {},
+        "domain": "homekit_controller",
+        "title": "Presence-Sensor-FP2-AE79",
+        "data": {
+          "AccessoryPairingID": "8C:1D:28:C5:B5:D7",
+          "AccessoryLTPK": "2b0cb8cce56480637d9e35955f5ff2ad71d7eaf96841bccd34131a46e6e8810e",
+          "iOSPairingId": "f0df394c-b859-4549-8524-d7f024cffbc9",
+          "iOSDeviceLTSK": "dcc871c546106caaaf368e67f027f22064d1bf22dcf899e5d8ac135ab6f427ad",
+          "iOSDeviceLTPK": "a283527f129b1e57585f3af3dc30a113a64957f823923b605a7e60961069be4b",
+          "AccessoryIP": "192.168.0.102",
+          "AccessoryIPs": [
+            "192.168.0.102"
+          ],
+          "AccessoryPort": 65075,
+          "Connection": "IP"
+        },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": null,
+        "source": "zeroconf",
+        "unique_id": "8c:1d:28:c5:b5:d7",
         "disabled_by": null
       }
     ]

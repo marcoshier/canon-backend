@@ -7,18 +7,18 @@
       {
         "area_id": null,
         "config_entries": [
-          "93bca23e9b311ab2b506bfd5ea5067ea"
+          "aabe7aebe86aacf354f767c37496ffb6"
         ],
         "configuration_url": null,
         "connections": [],
-        "disabled_by": null,
+        "disabled_by": "config_entry",
         "entry_type": "service",
         "hw_version": null,
-        "id": "44aae4b553bc7a8902183c8cd83a6e99",
+        "id": "7c63fbca6d3dc35499633709b28a081f",
         "identifiers": [
           [
             "sun",
-            "93bca23e9b311ab2b506bfd5ea5067ea"
+            "aabe7aebe86aacf354f767c37496ffb6"
           ]
         ],
         "manufacturer": null,
@@ -28,6 +28,31 @@
         "serial_number": null,
         "sw_version": null,
         "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "775cc541c2d6f4cae643f915b3883513"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "1.0.0",
+        "id": "0cfb688747627bb193bb0fc49c726561",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "8C:1D:28:C5:B5:D7:aid:1"
+          ]
+        ],
+        "manufacturer": "Aqara",
+        "model": "PS-S02D",
+        "name_by_user": null,
+        "name": "Presence-Sensor-FP2-AE79",
+        "serial_number": null,
+        "sw_version": "1.2.3",
+        "via_device_id": null
       }
     ],
     "deleted_devices": [
@@ -35,19 +60,25 @@
         "config_entries": [],
         "connections": [
           [
-            "mac",
-            "b2:ad:82:6c:19:18"
+            "bluetooth",
+            "DC:1B:A1:F0:D1:91"
           ]
         ],
+        "identifiers": [],
+        "id": "c3b1e6f6ea62ce74e89e847ce9ec468d",
+        "orphaned_timestamp": 1704893070.8763108
+      },
+      {
+        "config_entries": [],
+        "connections": [],
         "identifiers": [
           [
-            "homekit",
-            "3659ec8bd0c3ea9e03fe6bb55b997f2b",
-            "homekit.bridge"
+            "sun",
+            "e3c8673f04dca154d4abd61725f3d562"
           ]
         ],
-        "id": "1c02e38893ee355e09b75bbb9ab56a3f",
-        "orphaned_timestamp": 1704365768.900071
+        "id": "349f186bd1e9e13cb6429a0b2d6042c4",
+        "orphaned_timestamp": 1704893089.2824242
       }
     ]
   }
