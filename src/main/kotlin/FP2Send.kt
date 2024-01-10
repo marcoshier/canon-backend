@@ -8,8 +8,7 @@ import io.ktor.network.sockets.*
 import io.ktor.serialization.kotlinx.*
 import io.ktor.websocket.*
 import io.ktor.utils.io.core.*
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.*
 import lib.*
@@ -19,7 +18,8 @@ import serializables.HAEventObject
 import java.io.ByteArrayOutputStream
 
 
-fun main() = application {
+@OptIn(DelicateCoroutinesApi::class)
+suspend fun main() {
     val client = HttpClient(CIO) {
         install(WebSockets) {
             contentConverter = KotlinxWebsocketSerializationConverter(Json {
@@ -27,8 +27,6 @@ fun main() = application {
             })
         }
     }
-
-    program {
 
         val session = client.webSocketSession(HttpMethod.Get, "localhost", 8123, "/api/websocket")
         session.sendSerialized(AuthMessage(access_token = accessToken))
@@ -52,14 +50,13 @@ fun main() = application {
 
             s.stateChanged.listen { b ->
                 if(b) println("Entered zone ${s.index}") else println("Exited zone ${s.index}")
-                launch {
+                GlobalScope.launch {
                     send(SensorState(s.index, s.state))
                 }
             }
         }
 
 
-        launch {
             while (true) {
 
                 val msg = session.incoming.receive() as Frame.Text
@@ -104,5 +101,3 @@ fun main() = application {
 
             }
         }
-    }
-}

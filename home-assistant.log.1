@@ -1,17 +1,21 @@
-2024-01-10 14:31:40.901 ERROR (MainThread) [homeassistant.components.homeassistant_alerts] Error requesting homeassistant_alerts data: Cannot connect to host alerts.home-assistant.io:443 ssl:default [Try again]
-2024-01-10 14:31:44.167 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=27 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=27, family=2, type=2, proto=0, laddr=('0.0.0.0', 33509)>
-2024-01-10 14:31:44.167 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=27 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=27, family=2, type=2, proto=0, laddr=('0.0.0.0', 33509)>
-2024-01-10 14:31:44.167 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=27 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=27, family=2, type=2, proto=0, laddr=('0.0.0.0', 33509)>
-2024-01-10 14:31:44.168 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 42046, 0, 0)>
-2024-01-10 14:31:44.169 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 42046, 0, 0)>
-2024-01-10 14:31:44.169 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 42046, 0, 0)>
-2024-01-10 14:31:44.170 WARNING (MainThread) [zeroconf] Error with socket 14 (('192.168.0.101', 5353))): [Errno 101] Network unreachable
+2024-01-10 14:33:56.483 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). Requested URL: '/auth/login_flow/9cf0b1a54a78749c1c5bfd6bc35879c5'. (Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0)
+2024-01-10 14:34:46.578 ERROR (MainThread) [aiohomekit.utils] Failure running background task: Task-752
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 1190, in sendto
-    self._sock.sendto(data, addr)
-OSError: [Errno 101] Network unreachable
-2024-01-10 14:31:44.172 WARNING (MainThread) [zeroconf] Error with socket 15 (('fe80::8baf:5b33:d024:8b82', 5353, 0, 3))): [Errno 101] Network unreachable
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 1190, in sendto
-    self._sock.sendto(data, addr)
-OSError: [Errno 101] Network unreachable
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/utils.py", line 40, in _handle_task_result
+    task.result()
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/pairing.py", line 423, in _process_config_changed
+    await self.list_accessories_and_characteristics()
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/pairing.py", line 181, in list_accessories_and_characteristics
+    response = await self.connection.get_json("/accessories")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/connection.py", line 366, in get_json
+    response = await self.get(target)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/connection.py", line 360, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohomekit/controller/ip/connection.py", line 520, in request
+    raise AccessoryDisconnectedError("Tried to send while not connected")
+aiohomekit.exceptions.AccessoryDisconnectedError: Tried to send while not connected
+2024-01-10 14:35:58.474 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from localhost (127.0.0.1). Requested URL: '/api/websocket'. (Ktor client)
+2024-01-10 16:09:42.177 WARNING (DHCPWatcher) [scapy.runtime] Socket <scapy.arch.linux.L2ListenSocket object at 0x7fb9ced6ae90> failed with '[Errno 100] Network is down'. It was closed.

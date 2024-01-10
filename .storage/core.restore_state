@@ -14,16 +14,34 @@
           "device_trackers": [],
           "friendly_name": "rndr-devops"
         },
-        "last_changed": "2024-01-10T13:33:46.974535+00:00",
-        "last_updated": "2024-01-10T13:33:48.697710+00:00",
+        "last_changed": "2024-01-10T15:48:34.160893+00:00",
+        "last_updated": "2024-01-10T15:48:37.682489+00:00",
         "context": {
-          "id": "01HKSS8G8SRKJ9T2KV1JNER5KQ",
+          "id": "01HKT0ZBNJF25ESYKV9K0EFXXG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2024-01-10T13:33:48.698036+00:00"
+      "last_seen": "2024-01-10T15:48:37.682787+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.presence_sensor_fp2_ae79_identify",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Presence-Sensor-FP2-AE79 Identify"
+        },
+        "last_changed": "2024-01-10T15:48:37.680951+00:00",
+        "last_updated": "2024-01-10T15:48:37.680951+00:00",
+        "context": {
+          "id": "01HKT0ZBNGS5B586JJ7VFH10SX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2024-01-10T15:48:37.682787+00:00"
     },
     {
       "state": {
