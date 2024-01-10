@@ -3,7 +3,7 @@ package lib
 import io.ktor.network.sockets.*
 
 // name: canon
-val accessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0M2U2MTE4ZWIyNDE0OTcxYThmNDNjMGZlYjIwNDQyOSIsImlhdCI6MTcwNDg5Mzc3MywiZXhwIjoyMDIwMjUzNzczfQ.HuneKQtglCxBELOpyVSBe9oujR--iyk9YeyJT6mWUtQ"
+val accessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjN2M0MDhmZTFhNjQ0OWE2YjNjZjllMWU2MWNmOGE4OCIsImlhdCI6MTcwNDkwODIzOCwiZXhwIjoyMDIwMjY4MjM4fQ.TBhJTLUjZkb1d_NsOg7YPfqUHgMLbC3i2ZNRkImLkaY"
 
 
 
