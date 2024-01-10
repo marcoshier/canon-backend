@@ -28,7 +28,7 @@ suspend fun main() {
         }
     }
 
-        val session = client.webSocketSession(HttpMethod.Get, "localhost", 8123, "/api/websocket")
+        val session = client.webSocketSession(HttpMethod.Get, "raspberrypi.local", 8123, "/api/websocket")
         session.sendSerialized(AuthMessage(access_token = accessToken))
 
         val space = Space()
