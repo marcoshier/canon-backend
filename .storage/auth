@@ -164,6 +164,22 @@
         "last_used_ip": null,
         "credential_id": null,
         "version": "2024.1.2"
+      },
+      {
+        "id": "c72bb73594f649a4b6fea47f6d71eec7",
+        "user_id": "2a9aac67049742f790dd3f88d4413e38",
+        "client_id": "http://localhost:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-01-10T16:27:28.023615+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "428162a901a5830c9f9d3c93640e410d90b52f7eea51c11ce76bdfa5d4636df202710af4a81137887ca90c371ca2b01eccafcf3efd569dce2116df9ae7819171",
+        "jwt_key": "96d7444de14e3c33e5f43ca49e7111aa109c2987edede21194b79f0c17ee0665097dcef690d0f5ad3acc46eaf22b196f0b35a09cc0ef6b3ad8de9777e32a3857",
+        "last_used_at": "2024-01-10T16:27:28.023711+00:00",
+        "last_used_ip": "127.0.0.1",
+        "credential_id": "633140a9d30443328609f425c3acaf11",
+        "version": "2024.1.2"
       }
     ]
   }
