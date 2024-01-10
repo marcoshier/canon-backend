@@ -8,197 +8,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": null,
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": null,
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "person.rndr_devops",
-        "hidden_by": null,
-        "icon": null,
-        "id": "1089477de7230bbe3d540102f0a21ac9",
-        "has_entity_name": false,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "rndr-devops",
-        "platform": "person",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "rndr_devops",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "55ed1b83895de1214e0aacbb549361b8",
-        "device_class": null,
-        "device_id": "ef02a3062cc530682260af4bb3790e13",
-        "disabled_by": "user",
-        "entity_category": null,
-        "entity_id": "sensor.presence_sensor_fp2_ae79_light_sensor_light_level",
-        "hidden_by": null,
-        "icon": null,
-        "id": "9f20aef5f8c580f9b287334a114e1295",
-        "has_entity_name": false,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "illuminance",
-        "original_icon": null,
-        "original_name": "Presence-Sensor-FP2-AE79 Light Sensor Light Level",
-        "platform": "homekit_controller",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "B5:23:27:65:D6:FA_1_2672",
-        "previous_unique_id": null,
-        "unit_of_measurement": "lx"
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "55ed1b83895de1214e0aacbb549361b8",
-        "device_class": null,
-        "device_id": "ef02a3062cc530682260af4bb3790e13",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "binary_sensor.presence_sensor_fp2_ae79_presence_sensor_1",
-        "hidden_by": null,
-        "icon": null,
-        "id": "caf525b7ec354a2797e214f2754ab479",
-        "has_entity_name": false,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "occupancy",
-        "original_icon": null,
-        "original_name": "Presence-Sensor-FP2-AE79 Presence Sensor 1",
-        "platform": "homekit_controller",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "B5:23:27:65:D6:FA_1_2688",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "55ed1b83895de1214e0aacbb549361b8",
-        "device_class": null,
-        "device_id": "ef02a3062cc530682260af4bb3790e13",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "binary_sensor.presence_sensor_fp2_ae79_presence_sensor_2",
-        "hidden_by": null,
-        "icon": null,
-        "id": "ea24c452c65993b66f7f11dfad21e784",
-        "has_entity_name": false,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "occupancy",
-        "original_icon": null,
-        "original_name": "Presence-Sensor-FP2-AE79 Presence Sensor 2",
-        "platform": "homekit_controller",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "B5:23:27:65:D6:FA_1_2692",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "55ed1b83895de1214e0aacbb549361b8",
-        "device_class": null,
-        "device_id": "ef02a3062cc530682260af4bb3790e13",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "binary_sensor.presence_sensor_fp2_ae79_presence_sensor_3",
-        "hidden_by": null,
-        "icon": null,
-        "id": "a355dd5702338b9a85e96423337ff225",
-        "has_entity_name": false,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "occupancy",
-        "original_icon": null,
-        "original_name": "Presence-Sensor-FP2-AE79 Presence Sensor 3",
-        "platform": "homekit_controller",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "B5:23:27:65:D6:FA_1_2696",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "55ed1b83895de1214e0aacbb549361b8",
-        "device_class": null,
-        "device_id": "ef02a3062cc530682260af4bb3790e13",
-        "disabled_by": null,
-        "entity_category": "diagnostic",
-        "entity_id": "button.presence_sensor_fp2_ae79_identify",
-        "hidden_by": null,
-        "icon": null,
-        "id": "b393299d8ba445a3eba5663ed510a724",
-        "has_entity_name": false,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Presence-Sensor-FP2-AE79 Identify",
-        "platform": "homekit_controller",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "B5:23:27:65:D6:FA_1_1_2",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
-        "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_dawn",
         "hidden_by": null,
         "icon": null,
-        "id": "3768f68af68bb1ba6d011b80896a1b12",
+        "id": "2dba5dd6f2736c74228e2293e4747087",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -212,7 +30,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "next_dawn",
-        "unique_id": "57cd40f65573053312bba64759ebf031-next_dawn",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-next_dawn",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -220,15 +38,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_dusk",
         "hidden_by": null,
         "icon": null,
-        "id": "d9a7a47996030fdca92284a6a6453950",
+        "id": "a245e3b960b1b04e8ad8f0611e69928d",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -242,7 +60,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "next_dusk",
-        "unique_id": "57cd40f65573053312bba64759ebf031-next_dusk",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-next_dusk",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -250,15 +68,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_midnight",
         "hidden_by": null,
         "icon": null,
-        "id": "0b17769c47e9dc73a2d108034db0e27f",
+        "id": "ac2f7ed8252b3f2908c0cdf8727a6d3f",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -272,7 +90,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "next_midnight",
-        "unique_id": "57cd40f65573053312bba64759ebf031-next_midnight",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-next_midnight",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -280,15 +98,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_noon",
         "hidden_by": null,
         "icon": null,
-        "id": "df425c6e13c9904a42a21e1b51d54e62",
+        "id": "1d2cc5030b9266971a15c3dd6e4e3a5b",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -302,7 +120,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "next_noon",
-        "unique_id": "57cd40f65573053312bba64759ebf031-next_noon",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-next_noon",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -310,15 +128,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_rising",
         "hidden_by": null,
         "icon": null,
-        "id": "fff8acc1ff8c97a15f9f0f51ffa3b768",
+        "id": "bb44aa235e60e8d2bb4ac7a74db83bda",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -332,7 +150,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "next_rising",
-        "unique_id": "57cd40f65573053312bba64759ebf031-next_rising",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-next_rising",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -340,15 +158,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_setting",
         "hidden_by": null,
         "icon": null,
-        "id": "9e5915e1ae6ece0fd58934946a1d7cd4",
+        "id": "308f5cb5e7ec6ac03e3f496e6d8c1af8",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -362,7 +180,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "next_setting",
-        "unique_id": "57cd40f65573053312bba64759ebf031-next_setting",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-next_setting",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -372,15 +190,15 @@
         "capabilities": {
           "state_class": "measurement"
         },
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": "integration",
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_solar_elevation",
         "hidden_by": null,
         "icon": null,
-        "id": "8c617eba8af3c7ed3996deef0436096d",
+        "id": "50b15b19cfb01992280e56380e0aa0e3",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -394,7 +212,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "solar_elevation",
-        "unique_id": "57cd40f65573053312bba64759ebf031-solar_elevation",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-solar_elevation",
         "previous_unique_id": null,
         "unit_of_measurement": "°"
       },
@@ -404,15 +222,15 @@
         "capabilities": {
           "state_class": "measurement"
         },
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": "integration",
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_solar_azimuth",
         "hidden_by": null,
         "icon": null,
-        "id": "a3b2f2c09794dc04f2a26450402e01a7",
+        "id": "190f05bea8d319cedc044ab5ac5f4c43",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -426,7 +244,7 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "solar_azimuth",
-        "unique_id": "57cd40f65573053312bba64759ebf031-solar_azimuth",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-solar_azimuth",
         "previous_unique_id": null,
         "unit_of_measurement": "°"
       },
@@ -434,15 +252,15 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "57cd40f65573053312bba64759ebf031",
+        "config_entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
         "device_class": null,
-        "device_id": "8130669cc3b12b206667fdc15acf4118",
+        "device_id": "44aae4b553bc7a8902183c8cd83a6e99",
         "disabled_by": "integration",
         "entity_category": "diagnostic",
         "entity_id": "sensor.sun_solar_rising",
         "hidden_by": null,
         "icon": null,
-        "id": "23f0cc3e7d55dcea93fd66b751289c8d",
+        "id": "b2636c60ac1c02a17e885ebf3e40fc7f",
         "has_entity_name": true,
         "name": null,
         "options": {
@@ -456,172 +274,101 @@
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "solar_rising",
-        "unique_id": "57cd40f65573053312bba64759ebf031-solar_rising",
+        "unique_id": "93bca23e9b311ab2b506bfd5ea5067ea-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.devops_rndr",
+        "hidden_by": null,
+        "icon": null,
+        "id": "506f9d5e7be947a1946631e5123bf267",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "devops-rndr",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "devops_rndr",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "1376055c14607d8663fd8e9584368a54",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "todo.shopping_list",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6530f1a309116f338b987d09ec6a2dfe",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cart",
+        "original_name": "Shopping List",
+        "platform": "shopping_list",
+        "supported_features": 15,
+        "translation_key": "shopping_list",
+        "unique_id": "1376055c14607d8663fd8e9584368a54",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "7ffd8a507aba15c58d21514fb1c7ad17",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d63551e5415c57460dba7ee3488986d6",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7ffd8a507aba15c58d21514fb1c7ad17",
         "previous_unique_id": null,
         "unit_of_measurement": null
       }
     ],
-    "deleted_entities": [
-      {
-        "config_entry_id": null,
-        "entity_id": "tts.google_en_com",
-        "id": "13d1adbb9619535fc510c9856b6b78ce",
-        "orphaned_timestamp": 1704804051.8438969,
-        "platform": "google_translate",
-        "unique_id": "746fa3148e357183e0c9f15977963a57"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "todo.shopping_list",
-        "id": "16275a7d6962a94e2dfba46f28b9d0d4",
-        "orphaned_timestamp": 1704804068.838236,
-        "platform": "shopping_list",
-        "unique_id": "b4e9d5f796db9acfa659293d64cfb725"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_dawn",
-        "id": "36c97f442ac879b67ea320fbe77e6258",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-next_dawn"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_dusk",
-        "id": "f1b60e6f391e353a866c46362c8dfbdb",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-next_dusk"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_midnight",
-        "id": "ac4214f4eb2d4baf56e2ca09f59896a6",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-next_midnight"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_noon",
-        "id": "68bfbdc7cd4d375084854362e04c2d83",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-next_noon"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_rising",
-        "id": "a74a3924709bd62b45fccd515b102318",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-next_rising"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_setting",
-        "id": "8176f37d1a6f54b6345125b25044fa46",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-next_setting"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_solar_elevation",
-        "id": "443ecbbac8e8a77e294635c21a73aa01",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-solar_elevation"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_solar_azimuth",
-        "id": "59f946cc1ab55047140cc7b3ea0999fd",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-solar_azimuth"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_solar_rising",
-        "id": "7d809f1ac9d9080a92c0e20760209978",
-        "orphaned_timestamp": 1704804076.0082781,
-        "platform": "sun",
-        "unique_id": "485fe9355381fad849fd446def52acda-solar_rising"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_dawn",
-        "id": "4de2e4b93aec52c85b2777ea4251214f",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-next_dawn"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_dusk",
-        "id": "379c590713e4d3bd922e980b42a7a6cd",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-next_dusk"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_midnight",
-        "id": "3efb40ebb60711dd961cbd59d52323c7",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-next_midnight"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_noon",
-        "id": "5c98fe1636d77686225de910bf1aa6d8",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-next_noon"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_rising",
-        "id": "f92f2d0cfaba8ba421a8609b9198d370",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-next_rising"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_next_setting",
-        "id": "fab8cf992e1bc6273baba22a5d2a1570",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-next_setting"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_solar_elevation",
-        "id": "ea4bf12a96d51f0e782a0a9a4f7be14b",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-solar_elevation"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_solar_azimuth",
-        "id": "fe4d24fc264dee9268e013d65701f234",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-solar_azimuth"
-      },
-      {
-        "config_entry_id": null,
-        "entity_id": "sensor.sun_solar_rising",
-        "id": "0add2a0052c146833ca607f249a2e4d8",
-        "orphaned_timestamp": 1704808852.348118,
-        "platform": "sun",
-        "unique_id": "ed6c7f3595eaae4ac65b367d8b47a1f7-solar_rising"
-      }
-    ]
+    "deleted_entities": []
   }
 }

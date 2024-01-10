@@ -5,45 +5,20 @@
   "data": {
     "devices": [
       {
-        "area_id": "bedroom",
-        "config_entries": [
-          "55ed1b83895de1214e0aacbb549361b8"
-        ],
-        "configuration_url": null,
-        "connections": [],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": "1.0.0",
-        "id": "ef02a3062cc530682260af4bb3790e13",
-        "identifiers": [
-          [
-            "homekit_controller:accessory-id",
-            "B5:23:27:65:D6:FA:aid:1"
-          ]
-        ],
-        "manufacturer": "Aqara",
-        "model": "PS-S02D",
-        "name_by_user": null,
-        "name": "Presence-Sensor-FP2-AE79",
-        "serial_number": null,
-        "sw_version": "1.2.3",
-        "via_device_id": null
-      },
-      {
         "area_id": null,
         "config_entries": [
-          "57cd40f65573053312bba64759ebf031"
+          "93bca23e9b311ab2b506bfd5ea5067ea"
         ],
         "configuration_url": null,
         "connections": [],
         "disabled_by": null,
         "entry_type": "service",
         "hw_version": null,
-        "id": "8130669cc3b12b206667fdc15acf4118",
+        "id": "44aae4b553bc7a8902183c8cd83a6e99",
         "identifiers": [
           [
             "sun",
-            "57cd40f65573053312bba64759ebf031"
+            "93bca23e9b311ab2b506bfd5ea5067ea"
           ]
         ],
         "manufacturer": null,
@@ -60,37 +35,19 @@
         "config_entries": [],
         "connections": [
           [
-            "bluetooth",
-            "DC:1B:A1:F0:D1:91"
+            "mac",
+            "b2:ad:82:6c:19:18"
           ]
         ],
-        "identifiers": [],
-        "id": "18c50afae1e0e9883546cc5db41bb379",
-        "orphaned_timestamp": 1704804037.3851774
-      },
-      {
-        "config_entries": [],
-        "connections": [],
         "identifiers": [
           [
-            "sun",
-            "485fe9355381fad849fd446def52acda"
+            "homekit",
+            "3659ec8bd0c3ea9e03fe6bb55b997f2b",
+            "homekit.bridge"
           ]
         ],
-        "id": "9a50010fafa094b941da1272052d24a5",
-        "orphaned_timestamp": 1704804076.008124
-      },
-      {
-        "config_entries": [],
-        "connections": [],
-        "identifiers": [
-          [
-            "sun",
-            "ed6c7f3595eaae4ac65b367d8b47a1f7"
-          ]
-        ],
-        "id": "d8c1fcd254903696d3e4f1d0a53c4570",
-        "orphaned_timestamp": 1704808852.3479662
+        "id": "1c02e38893ee355e09b75bbb9ab56a3f",
+        "orphaned_timestamp": 1704365768.900071
       }
     ]
   }
