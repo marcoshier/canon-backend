@@ -99,6 +99,7 @@ plugins {
     alias(libs.plugins.runtime)
     alias(libs.plugins.gitarchive.tomarkdown).apply(false)
     alias(libs.plugins.versions)
+    kotlin("plugin.serialization") version "1.9.21"
 }
 
 repositories {
@@ -108,6 +109,11 @@ repositories {
 
 dependencies {
 
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
+    implementation("io.ktor:ktor-client-core:2.3.7")
+    implementation("io.ktor:ktor-client-cio:2.3.7")
+    implementation("io.ktor:ktor-client-websockets:2.3.7")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.7")
 //    implementation(libs.jsoup)
 //    implementation(libs.gson)
 //    implementation(libs.csv)

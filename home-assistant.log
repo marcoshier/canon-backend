@@ -1,1 +1,34 @@
-2024-01-04 10:55:12.292 ERROR (MainThread) [homeassistant.components.homeassistant_alerts] Timeout fetching homeassistant_alerts data
+2024-01-10 10:55:44.900 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 37789)>
+2024-01-10 10:55:44.900 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 35365, 0, 0)>
+2024-01-10 11:21:23.839 WARNING (DHCPWatcher) [scapy.runtime] Socket <scapy.arch.linux.L2ListenSocket object at 0x7f917f09afd0> failed with '[Errno 100] Network is down'. It was closed.
+2024-01-10 11:21:27.083 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 37789)>
+2024-01-10 11:21:27.084 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 37789)>
+2024-01-10 11:21:27.084 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 37789)>
+2024-01-10 11:21:27.085 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 35365, 0, 0)>
+2024-01-10 11:21:27.085 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 35365, 0, 0)>
+2024-01-10 11:21:27.085 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=10, type=2, proto=0, laddr=('::', 35365, 0, 0)>
+2024-01-10 11:21:27.086 WARNING (MainThread) [zeroconf] Error with socket 14 (('192.168.0.101', 5353))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 1190, in sendto
+    self._sock.sendto(data, addr)
+OSError: [Errno 101] Network unreachable
+2024-01-10 11:21:27.088 WARNING (MainThread) [zeroconf] Error with socket 15 (('fe80::8baf:5b33:d024:8b82', 5353, 0, 3))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/asyncio/selector_events.py", line 1190, in sendto
+    self._sock.sendto(data, addr)
+OSError: [Errno 101] Network unreachable
+2024-01-10 11:21:27.340 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/dhcp/__init__.py", line 113, in _async_stop
+    await watcher.async_stop()
+  File "/usr/src/homeassistant/homeassistant/components/dhcp/__init__.py", line 399, in async_stop
+    await self.hass.async_add_executor_job(self._stop)
+  File "/usr/local/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/dhcp/__init__.py", line 405, in _stop
+    self._sniffer.stop()
+  File "/usr/local/lib/python3.11/site-packages/scapy/sendrecv.py", line 1299, in stop
+    raise Scapy_Exception("Not running ! (check .running attr)")
+scapy.error.Scapy_Exception: Not running ! (check .running attr)
+2024-01-10 11:21:27.372 WARNING (MainThread) [homeassistant.core] Task <Task pending name='debouncer cooldown=10, immediate=False' coro=<HKDevice.async_update() running at /usr/src/homeassistant/homeassistant/components/homekit_controller/connection.py:806> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.remove(), Task.task_wakeup()]> was still running after final writes shutdown stage; Integrations should cancel non-critical tasks when receiving the stop event to prevent delaying shutdown

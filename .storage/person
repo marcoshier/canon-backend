@@ -5,9 +5,9 @@
   "data": {
     "items": [
       {
-        "id": "devops_rndr",
-        "name": "devops-rndr",
-        "user_id": "ce9e4a9de69444499dcf7d3ffd5b5c9e",
+        "id": "rndr_devops",
+        "name": "rndr-devops",
+        "user_id": "e687e6c747ff42c382a4d1238ea617fc",
         "device_trackers": []
       }
     ]

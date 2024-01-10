@@ -5,7 +5,104 @@
   "data": {
     "entries": [
       {
-        "entry_id": "93bca23e9b311ab2b506bfd5ea5067ea",
+        "entry_id": "55ed1b83895de1214e0aacbb549361b8",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "homekit_controller",
+        "title": "Presence-Sensor-FP2-AE79",
+        "data": {
+          "AccessoryPairingID": "B5:23:27:65:D6:FA",
+          "AccessoryLTPK": "d19eeb43af190bcb2b76a20030ac9bf72dd24252fc5dd669b26cf04e1e77be09",
+          "iOSPairingId": "09987973-1ae0-4cfe-8f66-a194bda51731",
+          "iOSDeviceLTSK": "07281b3defc8950af6797ba06faf734f5592d88edbab0dad0819fac56bcf03f9",
+          "iOSDeviceLTPK": "0da94819920334f20bf5e127d5634b2c8bba769f769ec10b3a0316516a2c9184",
+          "AccessoryIP": "192.168.0.102",
+          "AccessoryIPs": [
+            "192.168.0.102"
+          ],
+          "AccessoryPort": 62085,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "b5:23:27:65:d6:fa",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "41b3350e97ee1370548949a4ad28aaa4",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "upnp",
+        "title": "Archer_MR200",
+        "data": {
+          "udn": "uuid:9f0865b3-f5da-4ad5-85b7-7404637fdf37",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:9f0865b3-f5da-4ad5-85b7-7404637fdf37",
+          "mac_address": "40:ed:00:0d:3e:11",
+          "host": "192.168.0.1",
+          "location": "http://192.168.0.1:1900/gatedesc.xml"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:9f0865b3-f5da-4ad5-85b7-7404637fdf37::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a7936b96932888803c8ca355f2e764c9",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "apple_tv",
+        "title": "RNDR_TV (Apple TV 4)",
+        "data": {
+          "address": "192.168.1.86",
+          "identifiers": [
+            "D0034B56A1DD",
+            "633E5A27-8B4F-44ED-B2FD-5792880AD0B9",
+            "D0:03:4B:56:A1:DD",
+            "0623907A-E205-492B-A5AF-C9D0881F9077"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "0623907A-E205-492B-A5AF-C9D0881F9077",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5d7fee9111acb09afa990f490564ad1d",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "syncthru",
+        "title": "Samsung M262x 282x Series",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:16a65700-007c-1000-bb49-84251925626c",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8001ab0ceed748dbcdf1eb79b39a913b",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "hci0 (DC:1B:A1:F0:D1:91)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "DC:1B:A1:F0:D1:91",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "57cd40f65573053312bba64759ebf031",
         "version": 1,
         "minor_version": 1,
         "domain": "sun",
@@ -15,51 +112,6 @@
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "import",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "1376055c14607d8663fd8e9584368a54",
-        "version": 1,
-        "minor_version": 1,
-        "domain": "shopping_list",
-        "title": "Shopping list",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": "shopping_list",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "7ffd8a507aba15c58d21514fb1c7ad17",
-        "version": 1,
-        "minor_version": 1,
-        "domain": "google_translate",
-        "title": "Google Translate text-to-speech",
-        "data": {
-          "language": "en",
-          "tld": "com"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "8c701c0468ab8b8ca0d3b99ea873c2f2",
-        "version": 1,
-        "minor_version": 1,
-        "domain": "radio_browser",
-        "title": "Radio Browser",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "onboarding",
         "unique_id": null,
         "disabled_by": null
       }
